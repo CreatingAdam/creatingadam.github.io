@@ -20,12 +20,8 @@
 	padding: 30px;
 }
 
-#capriCustomizer div#swatchesDiv {
-	height: 60px;
-	text-align: center;
-}
-
-#capriCustomizer img.color-swatch {
+#capriCustomizer img.color-swatch,
+#capriCustomizer img.color-swatch-stripes {
 	margin: 5px 10px;
 	width: 50px;
 	height: 50px;
@@ -48,9 +44,23 @@
 	background-image: url(img/retreat-8/r8-black-trim.png);
 	background-size: contain;
 	left: 50%;
-	z-index: 4;
+	z-index: 5;
 	-webkit-transition: background-image 0.2s ease-in-out;
 	transition: background-image 0.2s ease-in-out;	
+}
+
+#capriCustomizer div#camperStripes {
+	position: absolute;
+	margin-left: -130px;
+	margin-top: 35px;
+	height: 255px;
+	width: 658px;
+	background-image: url(img/retreat-8/stripes-1/r8-stripes-1-white.png);
+	background-size: contain;
+	left: 50%;
+	z-index: 4;
+	-webkit-transition: background-image 0.2s ease-in-out;
+	transition: background-image 0.2s ease-in-out;
 }
 
 #capriCustomizer div#camperColor {
