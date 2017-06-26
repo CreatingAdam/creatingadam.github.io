@@ -1,86 +1,217 @@
 <!DOCTYPE html>
 <html>
-<head>
 
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<!-- Optional theme -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<head>
+	<!-- Bootstrap CDN -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+	 crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+	 crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+	 crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+	 crossorigin="anonymous"></script>
 
 	<!-- Capri Customizer Code -->
 	<link rel="stylesheet" href="capri-customizer.css">
 	<script src="capri-customizer.js"></script>
 </head>
-<body>
 
+<body>
 	<div id="capriCustomizer" class="container-fluid">
-		<div class="row">
-			<div class="col col-xs-12 brand-col">
-				<img src="img/cc-logo2.png"/>
+		<div class="row justify-content-center">
+			<div class="col col-12 brand-col">
+				<img src="img/cc-logo2.png" />
 			</div>
 		</div>
-		<div class="row">
-			<h1 class="text-center">Capri Camper Retreat 8' Long Bed</h1>
-			<h2 class="text-center">Ram 2500 Crew Cab Long Bed</h2>
+		<div class="row justify-content-center">
+			<h1 class="pt-4">Capri Camper Customizer</h1>
 		</div>
 		<hr>
-		<div class="row">
-			<div class="col col-xs-10 col-xs-offset-1 text-center">
-				<h4>Select your base color</h4>
+		<div class="row justify-content-center">
+			<h2 class="py-4">Retreat Camper</h2>
+		</div>
+		<div class="row text-center">
+				<a class="col-2 offset-2 h4 camper-size-link active" data-model="retreat" data-size="retreat-mid">Midsize 6'</a>
+				<a class="col-2 h4 camper-size-link" data-model="retreat" data-size="retreat-6">Fullsize 5.5'</a>
+				<a class="col-2 h4 camper-size-link" data-model="retreat" data-size="retreat-7">Fullsize 6.5'</a>
+				<a class="col-2 h4 camper-size-link" data-model="retreat" data-size="retreat-8">Fullsize 8'</a>
+		</div>
+		<hr>
+		<div class="row justify-content-center my-4">
+			<div class="dropdown col-2 offset-1">
+				<button class="btn btn-secondary dropdown-toggle" type="button" id="baseDropdown" data-toggle="dropdown" aria-haspopup="true"
+				 aria-expanded="false">
+					Base color
+				</button>
+				<div class="dropdown-menu" aria-labelledby="baseDropdown">
+					<a class="dropdown-item" data-model="retreat" data-size="retreat-mid" data-component="base" data-color="black"><img class="color-swatch" src="img/swatches/black-diamonds-50x50.png"></img> Black</a>
+					<a class="dropdown-item" data-model="retreat" data-size="retreat-mid" data-component="base" data-color="blue"><img class="color-swatch" src="img/swatches/blue-diamonds-50x50.png"></img> Blue</a>
+					<a class="dropdown-item" data-model="retreat" data-size="retreat-mid" data-component="base" data-color="chrome"><img class="color-swatch" src="img/swatches/chrome-diamonds-50x50.png"></img> Chrome</a>
+					<a class="dropdown-item" data-model="retreat" data-size="retreat-mid" data-component="base" data-color="green"><img class="color-swatch" src="img/swatches/green-diamonds-50x50.png"></img> Green</a>
+					<a class="dropdown-item" data-model="retreat" data-size="retreat-mid" data-component="base" data-color="maroon"><img class="color-swatch" src="img/swatches/maroon-diamonds-50x50.png"></img> Maroon</a>
+					<a class="dropdown-item" data-model="retreat" data-size="retreat-mid" data-component="base" data-color="orange"><img class="color-swatch" src="img/swatches/orange-diamonds-50x50.png"></img> Orange</a>
+					<a class="dropdown-item" data-model="retreat" data-size="retreat-mid" data-component="base" data-color="red"><img class="color-swatch" src="img/swatches/red-diamonds-50x50.png"></img> Red</a>
+					<a class="dropdown-item" data-model="retreat" data-size="retreat-mid" data-component="base" data-color="charcoal"><img class="color-swatch" src="img/swatches/charcoal-diamonds-50x50.png"></img> Charcoal</a>
+					<a class="dropdown-item" data-model="retreat" data-size="retreat-mid" data-component="base" data-color="silver"><img class="color-swatch" src="img/swatches/silver-diamonds-50x50.png"></img> Silver</a>
+					<a class="dropdown-item" data-model="retreat" data-size="retreat-mid" data-component="base" data-color="white"><img class="color-swatch" src="img/swatches/white-diamonds-50x50.png"></img> White</a>
+					<a class="dropdown-item" data-model="retreat" data-size="retreat-mid" data-component="base" data-color="yellow"><img class="color-swatch" src="img/swatches/yellow-diamonds-50x50.png"></img> Yellow</a>
+				</div>
+			</div>
+			<div class="dropdown col-2">
+				<button class="btn btn-secondary dropdown-toggle" type="button" id="stripesDropdown" data-toggle="dropdown" aria-haspopup="true"
+				 aria-expanded="false">
+					Stripes color
+				</button>
+				<div class="dropdown-menu" aria-labelledby="stripesDropdown">
+					<a class="dropdown-item" data-model="retreat" data-size="retreat-mid" data-component="stripes" data-color="black"><img class="color-swatch" src="img/swatches/black-diamonds-50x50.png"></img> Black</a>
+					<a class="dropdown-item" data-model="retreat" data-size="retreat-mid" data-component="stripes" data-color="blue"><img class="color-swatch" src="img/swatches/blue-diamonds-50x50.png"></img> Blue</a>
+					<a class="dropdown-item" data-model="retreat" data-size="retreat-mid" data-component="stripes" data-color="chrome"><img class="color-swatch" src="img/swatches/chrome-diamonds-50x50.png"></img> Chrome</a>
+					<a class="dropdown-item" data-model="retreat" data-size="retreat-mid" data-component="stripes" data-color="green"><img class="color-swatch" src="img/swatches/green-diamonds-50x50.png"></img> Green</a>
+					<a class="dropdown-item" data-model="retreat" data-size="retreat-mid" data-component="stripes" data-color="maroon"><img class="color-swatch" src="img/swatches/maroon-diamonds-50x50.png"></img> Maroon</a>
+					<a class="dropdown-item" data-model="retreat" data-size="retreat-mid" data-component="stripes" data-color="orange"><img class="color-swatch" src="img/swatches/orange-diamonds-50x50.png"></img> Orange</a>
+					<a class="dropdown-item" data-model="retreat" data-size="retreat-mid" data-component="stripes" data-color="red"><img class="color-swatch" src="img/swatches/red-diamonds-50x50.png"></img> Red</a>
+					<a class="dropdown-item" data-model="retreat" data-size="retreat-mid" data-component="stripes" data-color="charcoal"><img class="color-swatch" src="img/swatches/charcoal-diamonds-50x50.png"></img> Charcoal</a>
+					<a class="dropdown-item" data-model="retreat" data-size="retreat-mid" data-component="stripes" data-color="silver"><img class="color-swatch" src="img/swatches/silver-diamonds-50x50.png"></img> Silver</a>
+					<a class="dropdown-item" data-model="retreat" data-size="retreat-mid" data-component="stripes" data-color="white"><img class="color-swatch" src="img/swatches/white-diamonds-50x50.png"></img> White</a>
+					<a class="dropdown-item" data-model="retreat" data-size ="retreat-mid" data-component="stripes" data-color="yellow"><img class="color-swatch" src="img/swatches/yellow-diamonds-50x50.png"></img> Yellow</a>
+				</div>
+			</div>
+			<div class="dropdown col-2">
+				<button class="btn btn-secondary dropdown-toggle" type="button" id="accentDropdown" data-toggle="dropdown" aria-haspopup="true"
+				 aria-expanded="false">
+					Accent color
+				</button>
+				<div class="dropdown-menu" aria-labelledby="accentDropdown">
+					<a class="dropdown-item" data-model="retreat" data-size="retreat-mid" data-component="accent" data-color="black"><img class="color-swatch" src="img/swatches/black-diamonds-50x50.png"></img> Black</a>
+					<a class="dropdown-item" data-model="retreat" data-size="retreat-mid" data-component="accent" data-color="blue"><img class="color-swatch" src="img/swatches/blue-diamonds-50x50.png"></img> Blue</a>
+					<a class="dropdown-item" data-model="retreat" data-size="retreat-mid" data-component="accent" data-color="chrome"><img class="color-swatch" src="img/swatches/chrome-diamonds-50x50.png"></img> Chrome</a>
+					<a class="dropdown-item" data-model="retreat" data-size="retreat-mid" data-component="accent" data-color="green"><img class="color-swatch" src="img/swatches/green-diamonds-50x50.png"></img> Green</a>
+					<a class="dropdown-item" data-model="retreat" data-size="retreat-mid" data-component="accent" data-color="maroon"><img class="color-swatch" src="img/swatches/maroon-diamonds-50x50.png"></img> Maroon</a>
+					<a class="dropdown-item" data-model="retreat" data-size="retreat-mid" data-component="accent" data-color="orange"><img class="color-swatch" src="img/swatches/orange-diamonds-50x50.png"></img> Orange</a>
+					<a class="dropdown-item" data-model="retreat" data-size="retreat-mid" data-component="accent" data-color="red"><img class="color-swatch" src="img/swatches/red-diamonds-50x50.png"></img> Red</a>
+					<a class="dropdown-item" data-model="retreat" data-size="retreat-mid" data-component="accent" data-color="charcoal"><img class="color-swatch" src="img/swatches/charcoal-diamonds-50x50.png"></img> Charcoal</a>
+					<a class="dropdown-item" data-model="retreat" data-size="retreat-mid" data-component="accent" data-color="silver"><img class="color-swatch" src="img/swatches/silver-diamonds-50x50.png"></img> Silver</a>
+					<a class="dropdown-item" data-model="retreat" data-size="retreat-mid" data-component="accent" data-color="white"><img class="color-swatch" src="img/swatches/white-diamonds-50x50.png"></img> White</a>
+					<a class="dropdown-item" data-model="retreat" data-size="retreat-mid" data-component="accent" data-color="yellow"><img class="color-swatch" src="img/swatches/yellow-diamonds-50x50.png"></img> Yellow</a>
+				</div>
+			</div>
+			<div class="dropdown col-2">
+				<button class="btn btn-secondary dropdown-toggle" type="button" id="fixturesDropdown" data-toggle="dropdown" aria-haspopup="true"
+				 aria-expanded="false">
+					Vents and covers
+				</button>
+				<div class="dropdown-menu" aria-labelledby="fixturesDropdown">
+					<a class="dropdown-item" data-model="retreat" data-size="retreat-mid" data-component="fixtures" data-color="white">White</a>
+					<a class="dropdown-item" data-model="retreat" data-size="retreat-mid" data-component="fixtures" data-color="black">Black</a>
+				</div>
+			</div>
+			<div class="dropdown col-2">
+				<button class="btn btn-secondary dropdown-toggle" type="button" id="decalDropdown" data-toggle="dropdown" aria-haspopup="true"
+				 aria-expanded="false">
+					Logo decal
+				</button>
+				<div class="dropdown-menu" aria-labelledby="decalDropdown">
+					<a class="dropdown-item" data-model="retreat" data-size="retreat-mid" data-component="decal" data-color="white">White</a>
+					<a class="dropdown-item" data-model="retreat" data-size="retreat-mid" data-component="decal" data-color="black">Black</a>
+				</div>
 			</div>
 		</div>
-		<div class="row">
-			<div id="swatchesDiv" class="col col-xs-10 col-xs-offset-1 text-center">
-				<img class="color-swatch" src="img/swatches/black-diamonds-50x50.png" data-color="black"></img>
-				<img class="color-swatch" src="img/swatches/blue-diamonds-50x50.png" data-color="blue"></img>
-				<img class="color-swatch" src="img/swatches/chrome-diamonds-50x50.png" data-color="chrome"></img>
-				<img class="color-swatch" src="img/swatches/green-diamonds-50x50.png" data-color="green"></img>
-				<img class="color-swatch" src="img/swatches/maroon-diamonds-50x50.png" data-color="maroon"></img>
-				<img class="color-swatch" src="img/swatches/orange-diamonds-50x50.png" data-color="orange"></img>
-				<img class="color-swatch" src="img/swatches/red-diamonds-50x50.png" data-color="red"></img>
-				<img class="color-swatch" src="img/swatches/silver-diamonds-50x50.png" data-color="silver"></img>
-				<img class="color-swatch" src="img/swatches/white-diamonds-50x50.png" data-color="white"></img>
-				<img class="color-swatch" src="img/swatches/yellow-diamonds-50x50.png" data-color="yellow"></img>
-			</div>	
-		</div>
 		<hr>
-		<div class="row">
-			<div class="col col-xs-10 col-xs-offset-1 text-center">
-				<h4>Select your stripe color</h4>
-			</div>
-		</div>		
-		<div class="row">
-			<div id="swatchesDiv" class="col col-xs-10 col-xs-offset-1 text-center">
-				<img class="color-swatch-stripes" src="img/swatches/black-diamonds-50x50.png" data-stripes="stripes-1" data-color="black"></img>
-				<img class="color-swatch-stripes" src="img/swatches/blue-diamonds-50x50.png" data-stripes="stripes-1" data-color="blue"></img>
-				<img class="color-swatch-stripes" src="img/swatches/chrome-diamonds-50x50.png" data-stripes="stripes-1" data-color="chrome"></img>
-				<img class="color-swatch-stripes" src="img/swatches/green-diamonds-50x50.png" data-stripes="stripes-1" data-color="green"></img>
-				<img class="color-swatch-stripes" src="img/swatches/maroon-diamonds-50x50.png" data-stripes="stripes-1" data-color="maroon"></img>
-				<img class="color-swatch-stripes" src="img/swatches/orange-diamonds-50x50.png" data-stripes="stripes-1" data-color="orange"></img>
-				<img class="color-swatch-stripes" src="img/swatches/red-diamonds-50x50.png" data-stripes="stripes-1" data-color="red"></img>
-				<img class="color-swatch-stripes" src="img/swatches/silver-diamonds-50x50.png" data-stripes="stripes-1" data-color="silver"></img>
-				<img class="color-swatch-stripes" src="img/swatches/white-diamonds-50x50.png" data-stripes="stripes-1" data-color="white"></img>
-				<img class="color-swatch-stripes" src="img/swatches/yellow-diamonds-50x50.png" data-stripes="stripes-1" data-color="yellow"></img>
-			</div>	
-		</div>
-		<hr>
-		<div class="row">
-			<div id="camperDiv" class="col col-xs-12">
-				<div id="camperTrim"></div>
-				<div id="camperStripes"></div>
-				<div id="camperColor"></div>
-				<div id="camperShadow"></div>
-				<div id="truck"></div>
+		<div class="row justify-content-center">
+			<div class="col col-12">
+				<div id="retreat" class="camper-div retreat-mid-div my-4">
+					<div id="model" class="camper-component retreat-mid-model"></div>
+					<div id="base" class="camper-component retreat-mid-component"></div>
+					<div id="stripes" class="camper-component retreat-mid-stripes"></div>
+					<div id="accent" class="camper-component retreat-mid-accent"></div>
+					<div id="fixtures" class="camper-component retreat-mid-component"></div>
+					<div id="decal" class="camper-component retreat-mid-decal"></div>
+				</div>
 			</div>
 		</div>
+		<br>
 		<hr>
-		<div class="row">
-			<h5 class="text-center">Camper Customizer - Proof of Concept</h5>
-		</div>		
+		<div class="row justify-content-center">
+			<h2 class="py-4">Cowboy Camper</h2>
+		</div>
+		<div class="row text-center">
+				<a class="col-2 offset-2 h4 camper-size-link active" data-model="cowboy" data-size="cowboy-mid">Midsize 6'</a>
+				<a class="col-2 h4 camper-size-link" data-model="cowboy" data-size="cowboy-6">Fullsize 5.5'</a>
+				<a class="col-2 h4 camper-size-link" data-model="cowboy" data-size="cowboy-7">Fullsize 6.5'</a>
+				<a class="col-2 h4 camper-size-link" data-model="cowboy" data-size="cowboy-8">Fullsize 8'</a>
+		</div>
+		<hr>
+		<div class="row justify-content-center my-4">
+			<div class="dropdown col-2 offset-1">
+				<button class="btn btn-secondary dropdown-toggle" type="button" id="baseDropdown" data-toggle="dropdown" aria-haspopup="true"
+				 aria-expanded="false">
+					Base color
+				</button>
+				<div class="dropdown-menu" aria-labelledby="baseDropdown">
+					<a class="dropdown-item" data-model="cowboy" data-size="cowboy-mid" data-component="base" data-color="black"><img class="color-swatch" src="img/swatches/black-diamonds-50x50.png"></img> Black</a>
+					<a class="dropdown-item" data-model="cowboy" data-size="cowboy-mid" data-component="base" data-color="blue"><img class="color-swatch" src="img/swatches/blue-diamonds-50x50.png"></img> Blue</a>
+					<a class="dropdown-item" data-model="cowboy" data-size="cowboy-mid" data-component="base" data-color="chrome"><img class="color-swatch" src="img/swatches/chrome-diamonds-50x50.png"></img> Chrome</a>
+					<a class="dropdown-item" data-model="cowboy" data-size="cowboy-mid" data-component="base" data-color="green"><img class="color-swatch" src="img/swatches/green-diamonds-50x50.png"></img> Green</a>
+					<a class="dropdown-item" data-model="cowboy" data-size="cowboy-mid" data-component="base" data-color="maroon"><img class="color-swatch" src="img/swatches/maroon-diamonds-50x50.png"></img> Maroon</a>
+					<a class="dropdown-item" data-model="cowboy" data-size="cowboy-mid" data-component="base" data-color="orange"><img class="color-swatch" src="img/swatches/orange-diamonds-50x50.png"></img> Orange</a>
+					<a class="dropdown-item" data-model="cowboy" data-size="cowboy-mid" data-component="base" data-color="red"><img class="color-swatch" src="img/swatches/red-diamonds-50x50.png"></img> Red</a>
+					<a class="dropdown-item" data-model="cowboy" data-size="cowboy-mid" data-component="base" data-color="charcoal"><img class="color-swatch" src="img/swatches/charcoal-diamonds-50x50.png"></img> Charcoal</a>
+					<a class="dropdown-item" data-model="cowboy" data-size="cowboy-mid" data-component="base" data-color="silver"><img class="color-swatch" src="img/swatches/silver-diamonds-50x50.png"></img> Silver</a>
+					<a class="dropdown-item" data-model="cowboy" data-size="cowboy-mid" data-component="base" data-color="white"><img class="color-swatch" src="img/swatches/white-diamonds-50x50.png"></img> White</a>
+					<a class="dropdown-item" data-model="cowboy" data-size="cowboy-mid" data-component="base" data-color="yellow"><img class="color-swatch" src="img/swatches/yellow-diamonds-50x50.png"></img> Yellow</a>
+				</div>
+			</div>
+			<div class="dropdown col-2">
+				<button class="btn btn-secondary dropdown-toggle" type="button" id="stripesDropdown" data-toggle="dropdown" aria-haspopup="true"
+				 aria-expanded="false">
+					Stripes color
+				</button>
+				<div class="dropdown-menu" aria-labelledby="stripesDropdown">
+					<a class="dropdown-item" data-model="cowboy" data-size="cowboy-mid" data-component="stripes" data-color="black"><img class="color-swatch" src="img/swatches/black-diamonds-50x50.png"></img> Black</a>
+					<a class="dropdown-item" data-model="cowboy" data-size="cowboy-mid" data-component="stripes" data-color="blue"><img class="color-swatch" src="img/swatches/blue-diamonds-50x50.png"></img> Blue</a>
+					<a class="dropdown-item" data-model="cowboy" data-size="cowboy-mid" data-component="stripes" data-color="chrome"><img class="color-swatch" src="img/swatches/chrome-diamonds-50x50.png"></img> Chrome</a>
+					<a class="dropdown-item" data-model="cowboy" data-size="cowboy-mid" data-component="stripes" data-color="green"><img class="color-swatch" src="img/swatches/green-diamonds-50x50.png"></img> Green</a>
+					<a class="dropdown-item" data-model="cowboy" data-size="cowboy-mid" data-component="stripes" data-color="maroon"><img class="color-swatch" src="img/swatches/maroon-diamonds-50x50.png"></img> Maroon</a>
+					<a class="dropdown-item" data-model="cowboy" data-size="cowboy-mid" data-component="stripes" data-color="orange"><img class="color-swatch" src="img/swatches/orange-diamonds-50x50.png"></img> Orange</a>
+					<a class="dropdown-item" data-model="cowboy" data-size="cowboy-mid" data-component="stripes" data-color="red"><img class="color-swatch" src="img/swatches/red-diamonds-50x50.png"></img> Red</a>
+					<a class="dropdown-item" data-model="cowboy" data-size="cowboy-mid" data-component="stripes" data-color="charcoal"><img class="color-swatch" src="img/swatches/charcoal-diamonds-50x50.png"></img> Charcoal</a>
+					<a class="dropdown-item" data-model="cowboy" data-size="cowboy-mid" data-component="stripes" data-color="silver"><img class="color-swatch" src="img/swatches/silver-diamonds-50x50.png"></img> Silver</a>
+					<a class="dropdown-item" data-model="cowboy" data-size="cowboy-mid" data-component="stripes" data-color="white"><img class="color-swatch" src="img/swatches/white-diamonds-50x50.png"></img> White</a>
+					<a class="dropdown-item" data-model="cowboy" data-size ="cowboy-mid" data-component="stripes" data-color="yellow"><img class="color-swatch" src="img/swatches/yellow-diamonds-50x50.png"></img> Yellow</a>
+				</div>
+			</div>
+			<div class="dropdown col-2">
+				<button class="btn btn-secondary dropdown-toggle" type="button" id="decalDropdown" data-toggle="dropdown" aria-haspopup="true"
+				 aria-expanded="false">
+					Logo decal
+				</button>
+				<div class="dropdown-menu" aria-labelledby="decalDropdown">
+					<a class="dropdown-item" data-model="cowboy" data-size="cowboy-mid" data-component="decal" data-color="white">White</a>
+					<a class="dropdown-item" data-model="cowboy" data-size="cowboy-mid" data-component="decal" data-color="black">Black</a>
+				</div>
+			</div>
+		</div>
+		<hr>
+		<div class="row justify-content-center">
+			<div class="col col-12">
+				<div id="cowboy" class="camper-div cowboy-mid-div my-4">
+					<div id="model" class="camper-component cowboy-mid-model"></div>
+					<div id="base" class="camper-component cowboy-mid-component"></div>
+					<div id="stripes" class="camper-component cowboy-mid-stripes"></div>
+					<div id="accent" class="camper-component cowboy-mid-accent"></div>
+					<div id="fixtures" class="camper-component cowboy-mid-component"></div>
+					<div id="decal" class="camper-component cowboy-mid-decal"></div>
+				</div>
+			</div>
+		</div>
+		<br>
+		<hr>
+		<div class="row justify-content-center">
+			<h5 class="text-center">Camper Customizer - Version 1.0</h5>
+		</div>
 	</div>
 
 </body>
+
 </html>
