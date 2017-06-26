@@ -17,7 +17,6 @@ $(function() {
 	// Initialize Cowboy - DEMO ONLY!!!
 	$("#cowboy").children("#model").css("background-image", "url(img/cowboy/cowboy-mid/camper.png)");
 	$("#cowboy").children("#base").css("background-image", "url(img/cowboy/cowboy-mid/base/black.png)");
-	$("#cowboy").children("#fixtures").css("background-image", "url(img/cowboy/cowboy-mid/fixtures/black.png)");
 	$("#cowboy").children("#decal").css("background-image", "url(img/cowboy/cowboy-mid/decal/white.png)");
 
 	$(".camper-size-link").on("click", function() {
@@ -36,8 +35,9 @@ $(function() {
 		$(this).addClass("active");
 
 		// Set new data attributes for dropdowns
-		$("a.dropdown-item").attr("data-model", currModel);
-		$("a.dropdown-item").attr("data-size", currSize);
+		var dropdownItem = "a.dropdown-item" + "." + currModel;
+		$(dropdownItem).attr("data-model", currModel);
+		$(dropdownItem).attr("data-size", currSize);
 	});
 
   	$(".dropdown-menu a").on("click", function() {
