@@ -1,3 +1,7 @@
+/**
+ * Capri Camper Customizer
+ * Copyright 2017 Capri Camper
+ */
 #capriCustomizer {
   color: #686868; }
   #capriCustomizer .container-fluid {
@@ -26,29 +30,29 @@
     position: relative;
     margin: 0 auto; }
     #capriCustomizer div.camper-div.retreat-mid-div {
-      width: 910.8px;
-      height: 490.8px; }
+      width: 607.2px;
+      height: 327.2px; }
     #capriCustomizer div.camper-div.retreat-6-div {
-      width: 1084.8px;
-      height: 579.6px; }
+      width: 723.2px;
+      height: 386.4px; }
     #capriCustomizer div.camper-div.retreat-7-div {
-      width: 1120.8px;
-      height: 549px; }
+      width: 747.2px;
+      height: 366px; }
     #capriCustomizer div.camper-div.retreat-8-div {
-      width: 1173.6px;
-      height: 562.2px; }
+      width: 782.4px;
+      height: 374.8px; }
     #capriCustomizer div.camper-div.cowboy-mid-div {
-      width: 912px;
-      height: 420.6px; }
+      width: 608px;
+      height: 280.4px; }
     #capriCustomizer div.camper-div.cowboy-6-div {
-      width: 1083px;
-      height: 468px; }
+      width: 722px;
+      height: 312px; }
     #capriCustomizer div.camper-div.cowboy-7-div {
-      width: 1120.8px;
-      height: 479.4px; }
+      width: 747.2px;
+      height: 319.6px; }
     #capriCustomizer div.camper-div.cowboy-8-div {
-      width: 1173.6px;
-      height: 485.4px; }
+      width: 782.4px;
+      height: 323.6px; }
   #capriCustomizer div.camper-component {
     position: absolute;
     background-repeat: no-repeat;
@@ -56,70 +60,70 @@
     -webkit-transition: background-image 0.2s ease-in-out;
     transition: background-image 0.2s ease-in-out; }
     #capriCustomizer div.camper-component.retreat-mid-component {
-      width: 571.8px;
-      height: 259.8px;
-      left: 339px; }
+      width: 381.2px;
+      height: 173.2px;
+      left: 226px; }
     #capriCustomizer div.camper-component.retreat-6-component {
-      width: 647.4px;
-      height: 301.8px;
-      left: 436.8px; }
+      width: 431.6px;
+      height: 201.2px;
+      left: 291.2px; }
     #capriCustomizer div.camper-component.retreat-7-component {
-      width: 634.2px;
-      height: 271.2px;
-      left: 476.4px; }
+      width: 422.8px;
+      height: 180.8px;
+      left: 317.6px; }
     #capriCustomizer div.camper-component.retreat-8-component {
-      width: 754.2px;
-      height: 300.6px;
-      left: 417px; }
+      width: 502.8px;
+      height: 200.4px;
+      left: 278px; }
     #capriCustomizer div.camper-component.cowboy-mid-component {
-      width: 370.2px;
-      height: 190.8px;
-      left: 541.8px; }
+      width: 246.8px;
+      height: 127.2px;
+      left: 361.2px; }
     #capriCustomizer div.camper-component.cowboy-6-component {
-      width: 370.2px;
-      height: 190.8px;
-      left: 708px; }
+      width: 246.8px;
+      height: 127.2px;
+      left: 472px; }
     #capriCustomizer div.camper-component.cowboy-7-component {
-      width: 396px;
-      height: 201.6px;
-      left: 717px; }
+      width: 264px;
+      height: 134.4px;
+      left: 478px; }
     #capriCustomizer div.camper-component.cowboy-8-component {
-      width: 487.8px;
-      height: 224.4px;
-      left: 685.8px; }
+      width: 325.2px;
+      height: 149.6px;
+      left: 457.2px; }
   #capriCustomizer #model {
     z-index: 20; }
     #capriCustomizer #model.retreat-mid-model {
-      width: 910.8px;
-      height: 490.8px;
+      width: 607.2px;
+      height: 327.2px;
       left: 0; }
     #capriCustomizer #model.retreat-6-model {
-      width: 1084.8px;
-      height: 579.6px;
+      width: 723.2px;
+      height: 386.4px;
       left: 0; }
     #capriCustomizer #model.retreat-7-model {
-      width: 1120.8px;
-      height: 549px;
+      width: 747.2px;
+      height: 366px;
       left: 0; }
     #capriCustomizer #model.retreat-8-model {
-      width: 1173.6px;
-      height: 562.2px;
+      width: 782.4px;
+      height: 374.8px;
       left: 0; }
     #capriCustomizer #model.cowboy-mid-model {
-      width: 912px;
-      height: 420.6px;
+      width: 608px;
+      height: 280.4px;
       left: 0; }
     #capriCustomizer #model.cowboy-6-model {
-      width: 1083px;
-      height: 468px;
+      width: 722px;
+      height: 312px;
       left: 0; }
     #capriCustomizer #model.cowboy-7-model {
-      width: 1120.8px;
-      height: 479.4px;
+      width: 747.2px;
+      height: 319.6px;
       left: 0; }
     #capriCustomizer #model.cowboy-8-model {
-      width: 1173.6px;
-      height: 485.4px;
+      width: 782.4px;
+      height: 323.6px;
       left: 0; }
   #capriCustomizer #base {
     z-index: 5; }
@@ -127,109 +131,129 @@
     background-image: none;
     z-index: 10; }
     #capriCustomizer #stripes.retreat-mid-stripes {
-      width: 518.4px;
-      height: 195px;
-      left: 369px;
-      top: 48px; }
+      width: 365.6px;
+      height: 94.8px;
+      left: 226px;
+      top: 30.4px; }
     #capriCustomizer #stripes.retreat-6-stripes {
-      width: 592.8px;
-      height: 210px;
-      left: 468.6px;
-      top: 51px; }
+      width: 416.4px;
+      height: 101.6px;
+      left: 292px;
+      top: 32px; }
     #capriCustomizer #stripes.retreat-7-stripes {
-      width: 585.6px;
-      height: 189px;
-      left: 505.2px;
-      top: 45px; }
+      width: 409.2px;
+      height: 95.2px;
+      left: 318px;
+      top: 28.8px; }
     #capriCustomizer #stripes.retreat-8-stripes {
-      width: 699.6px;
-      height: 210px;
-      left: 448.8px;
-      top: 51px; }
+      width: 487.6px;
+      height: 102px;
+      left: 278px;
+      top: 32px; }
+    #capriCustomizer #stripes.retreat-mid-stripes-with-accent {
+      width: 345.6px;
+      height: 130px;
+      left: 246px;
+      top: 32px; }
+    #capriCustomizer #stripes.retreat-6-stripes-with-accent {
+      width: 395.2px;
+      height: 140px;
+      left: 312.4px;
+      top: 34px; }
+    #capriCustomizer #stripes.retreat-7-stripes-with-accent {
+      width: 390.4px;
+      height: 126px;
+      left: 336.8px;
+      top: 30px; }
+    #capriCustomizer #stripes.retreat-8-stripes-with-accent {
+      width: 466.4px;
+      height: 140px;
+      left: 299.2px;
+      top: 34px; }
     #capriCustomizer #stripes.cowboy-mid-stripes {
-      width: 347.4px;
-      height: 147px;
-      left: 541.8px;
-      top: 40.8px; }
+      width: 231.6px;
+      height: 98px;
+      left: 361.2px;
+      top: 27.2px; }
     #capriCustomizer #stripes.cowboy-6-stripes {
-      width: 347.4px;
-      height: 147px;
-      left: 707.4px;
-      top: 42px; }
+      width: 231.6px;
+      height: 98px;
+      left: 471.6px;
+      top: 28px; }
     #capriCustomizer #stripes.cowboy-7-stripes {
-      width: 375px;
-      height: 141px;
-      left: 717px;
-      top: 58.2px; }
+      width: 250px;
+      height: 94px;
+      left: 478px;
+      top: 38.8px; }
     #capriCustomizer #stripes.cowboy-8-stripes {
-      width: 463.2px;
-      height: 157.2px;
-      left: 685.8px;
-      top: 64.8px; }
+      width: 308.8px;
+      height: 104.8px;
+      left: 457.2px;
+      top: 43.2px; }
   #capriCustomizer #accent {
     background-image: none;
     z-index: 15; }
     #capriCustomizer #accent.retreat-mid-accent {
-      width: 544.2px;
-      height: 16.2px;
-      left: 341.4px;
-      top: 139.2px; }
+      width: 362.8px;
+      height: 10.8px;
+      left: 227.6px;
+      top: 92.8px; }
     #capriCustomizer #accent.retreat-6-accent {
-      width: 620.4px;
-      height: 21.6px;
-      left: 439.8px;
-      top: 150px; }
+      width: 413.6px;
+      height: 14.4px;
+      left: 293.2px;
+      top: 100px; }
     #capriCustomizer #accent.retreat-7-accent {
-      width: 610.8px;
-      height: 22.2px;
-      left: 477px;
-      top: 132px; }
+      width: 407.2px;
+      height: 14.8px;
+      left: 318px;
+      top: 88px; }
     #capriCustomizer #accent.retreat-8-accent {
-      width: 726.6px;
-      height: 28.2px;
-      left: 420px;
-      top: 147px; }
+      width: 484.4px;
+      height: 18.8px;
+      left: 280px;
+      top: 98px; }
   #capriCustomizer #fixtures {
     z-index: 25; }
   #capriCustomizer #decal {
     z-index: 30; }
     #capriCustomizer #decal.retreat-mid-decal {
-      width: 51px;
-      height: 24.6px;
-      left: 828px;
-      top: 204px; }
+      width: 34px;
+      height: 16.4px;
+      left: 552px;
+      top: 136px; }
     #capriCustomizer #decal.retreat-6-decal {
-      width: 53.4px;
-      height: 25.8px;
-      left: 1002px;
-      top: 258px; }
+      width: 35.6px;
+      height: 17.2px;
+      left: 668px;
+      top: 172px; }
     #capriCustomizer #decal.retreat-7-decal {
-      width: 48px;
-      height: 23.4px;
-      left: 1032px;
-      top: 229.8px; }
+      width: 32px;
+      height: 15.6px;
+      left: 688px;
+      top: 153.2px; }
     #capriCustomizer #decal.retreat-8-decal {
-      width: 52.2px;
-      height: 26.4px;
-      left: 1086px;
-      top: 255px; }
+      width: 34.8px;
+      height: 17.6px;
+      left: 724px;
+      top: 170px; }
     #capriCustomizer #decal.cowboy-mid-decal {
-      width: 52.2px;
-      height: 25.8px;
-      left: 828px;
-      top: 146.4px; }
+      width: 34.8px;
+      height: 17.2px;
+      left: 552px;
+      top: 97.6px; }
     #capriCustomizer #decal.cowboy-6-decal {
-      width: 52.2px;
-      height: 25.8px;
-      left: 996px;
-      top: 145.2px; }
+      width: 34.8px;
+      height: 17.2px;
+      left: 664px;
+      top: 96.8px; }
     #capriCustomizer #decal.cowboy-7-decal {
-      width: 49.8px;
-      height: 24.6px;
-      left: 1032px;
-      top: 159px; }
+      width: 33.2px;
+      height: 16.4px;
+      left: 688px;
+      top: 106px; }
     #capriCustomizer #decal.cowboy-8-decal {
-      width: 55.2px;
-      height: 27.6px;
-      left: 1086px;
-      top: 174px; }
+      width: 36.8px;
+      height: 18.4px;
+      left: 724px;
+      top: 116px; }
